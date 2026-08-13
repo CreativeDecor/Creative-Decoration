@@ -52,7 +52,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             {/* Raw Logo */}
             <Link href="/" className="flex items-center group">
-              <div className="relative w-32 h-10 sm:w-44 sm:h-14 flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
+              <div className="relative w-36 h-11 sm:w-44 sm:h-14 flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
                 <img
                   src="/logo.png"
                   alt="Creative Decor Logo"
@@ -193,7 +193,7 @@ export default function Navbar() {
               {/* Header (Sticky / Fixed) */}
               <div className="flex items-center justify-between border-b pb-6 border-luxury-beigeDark">
                 <Link href="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
-                  <div className="relative w-28 h-9 flex items-center justify-center">
+                  <div className="relative w-32 h-10 flex items-center justify-center">
                     <img
                       src="/logo.png"
                       alt="Creative Decor Logo"
