@@ -84,8 +84,8 @@ export default function Hero() {
         <div className="relative z-10 flex flex-col justify-center px-5 pt-24 pb-18 min-h-[410px]">
           {/* Badge */}
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-sm border border-white/10 self-start mb-4">
-            <MapPin size={10} className="text-luxury-gold shrink-0" />
-            <span className="text-[9px] font-extrabold tracking-wider text-white uppercase">
+            <MapPin size={11} className="text-luxury-gold shrink-0" />
+            <span className="text-[10px] font-extrabold tracking-wider text-white uppercase">
               Panaji, Goa <span className="text-luxury-gold font-black">•</span> Interior Solutions &amp; Furnishing
             </span>
           </div>
